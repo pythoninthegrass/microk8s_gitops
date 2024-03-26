@@ -1,10 +1,9 @@
----
 version: "3"
 
 vars:
-  PROJECT_DIR:
+  TLD:
     sh: "git rev-parse --show-toplevel"
 
 includes:
-  flux: .taskfiles/flux.yml
-  adguard: .taskfiles/adguard.yml
+  flux: taskfiles/flux.yml
+  adguard: taskfiles/adguard.yml

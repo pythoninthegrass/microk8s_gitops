@@ -4,7 +4,7 @@ version: "3"
 tasks:
   default:
     cmds:
-      - echo {{.PROJECT_DIR}}
+      - echo {{.TLD}}
       - task: start
 
   start:
